@@ -1,0 +1,41 @@
+{
+  "React Functional Component File": {
+    "scope": "typescriptreact",
+    "prefix": "gmfcfile",
+    "description": "React Functional Component file boilerplate.",
+    "body": [
+      "import React from 'react';",
+      "",
+      "export interface ${1:${TM_FILENAME_BASE}}Props {",
+      "}",
+      "",
+      "export function ${1:${TM_FILENAME_BASE}}({}: ${1:${TM_FILENAME_BASE}}Props): React.ReactElement {",
+      "  return (<div>{'${1:${TM_FILENAME_BASE}}'}</div>)",
+      "}",
+      ""
+    ]
+  },
+  "React Component Stories File": {
+    "scope": "typescriptreact",
+    "prefix": "gmstories",
+    "description": "Stories boilerplate for React component.",
+    "body": [
+      "import type { Meta, StoryFn } from '@storybook/react';",
+      "import { ${1:${TM_FILENAME/\\..*//}}, ${1:${TM_FILENAME/\\..*//}}Props } from './${1:${TM_FILENAME/\\..*//}}';",
+      "",
+      "const STORY_META: Meta<${1:${TM_FILENAME/\\..*//}}Props> = {",
+      "  component: ${1:${TM_FILENAME/\\..*//}},",
+      "  title: '${2:dir}/${1:${TM_FILENAME/\\..*//}}',",
+      "};",
+      "export default STORY_META;",
+      "",
+      "const Template: StoryFn<${1:${TM_FILENAME/\\..*//}}Props> = (args: ${1:${TM_FILENAME/\\..*//}}Props) => {",
+      "  return <${1:${TM_FILENAME/\\..*//}} {...args} />;",
+      "};",
+      "",
+      "export const Primary = Template.bind({});",
+      "Primary.args = {",
+      "};"
+    ]
+  }
+}

@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.3] - 2023-05-31
+
+### Changed
+
+- Change `gmstories` snippet to generate stories in CSF3 format for Storybook 7.
+
 ## [0.0.2] - 2023-04-06
 
 ### Fixed

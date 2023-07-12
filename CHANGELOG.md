@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.4] - 2023-07-12
+
+### Fixed
+
+- Ivalid interpunction in `gmstories`. 
+
 ## [0.0.3] - 2023-05-31
 
 ### Changed

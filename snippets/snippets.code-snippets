@@ -31,8 +31,8 @@
       "export const Primary: StoryObj<${1:${TM_FILENAME/\\..*//}}Props> = {",
       "  render: (args: ${1:${TM_FILENAME/\\..*//}}Props) => {",
       "    return <${1:${TM_FILENAME/\\..*//}} {...args} />;",
-      "  };",
-      "}",
+      "  },",
+      "};",
       "",
     ]
   }

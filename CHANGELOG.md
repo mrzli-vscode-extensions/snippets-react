@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.5] - 2023-12-09
+
+### Changed
+
+- Change `gmstories` snippet to automatically include additional field stubs in meta.
+
 ## [0.0.4] - 2023-07-12
 
 ### Fixed
